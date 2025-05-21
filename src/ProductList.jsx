@@ -336,15 +336,7 @@ function ProductList({ onHomeClick }) {
 
                 </div>
             ) : (
-                <>
                     <CartItem onContinueShopping={handleContinueShopping} />
-                    <button
-                        className="product-button"
-                        onClick={() => alert('Proceeding to checkout...')}
-                    >
-                        Checkout
-                    </button>
-                </>
             )}
         </div>
     );
